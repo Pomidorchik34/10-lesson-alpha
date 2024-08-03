@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+body p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #949494;
+}
+body li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #949494;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 0px 160px;
+}
+.footer-cont {
+  display: flex;
+  gap: 28px;
+}
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 200px;
+  height: 200px;
+}
+.card-footer p {
+  line-height: 20px;
+}
+.orange option {
+  background-color: black;
+}
+.dark option {
+  background-color: black;
+}
+.card-footer img {
+  width: 75px;
+  height: 75px;
+}
+select {
+  z-index: 100;
+}
+#root {
+  transition: 0.3s;
+}
+.orange {
+  transition: 0.3s;
+  background-color: rgb(255, 117, 67);
+}
+.orange select {
+  color: white;
+}
+.orange h1 {
+  color: white;
+}
+.orange h3 {
+  color: white;
+}
+.orange p {
+  color: white;
+}
+.orange li {
+  color: white;
+}
+.orange select {
+  background-color: transparent;
+}
+.dark {
+  transition: 0.3s;
+  background-color: rgb(36, 36, 36);
+}
+.dark select {
+  color: white;
+}
+.dark h1 {
+  color: white;
+}
+.dark h3 {
+  color: white;
+}
+.dark p {
+  color: white;
+}
+.dark li {
+  color: white;
+}
+.dark select {
+  background-color: transparent;
+}
